@@ -12,9 +12,7 @@ class App extends Component {
   //in react, state is always an object. The argument 'props' is also convention.
 
   changeDeadline(){
-    this.setState({
-      deadline: 'November 25, 2018'
-    })
+    console.log('state', this.state);
   }
 
   render(){
@@ -32,7 +30,7 @@ class App extends Component {
         <div>
             <input
               placeholder='target date'
-              onChange={event => console.log(event.target.value, 'event')}
+              onChange={event => this.setState({newDeadline: event.target.value})}
             />
             <button onClick={() => this.changeDeadline()}>
               Submit
