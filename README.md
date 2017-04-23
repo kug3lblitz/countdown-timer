@@ -1,4 +1,4 @@
-#Countdown App
+# Countdown App
 See how far out specific dates are. Great for birthdays, Christmas, deadlines, vacation reset dates, and self-demoralization.
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
